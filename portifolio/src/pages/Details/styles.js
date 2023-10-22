@@ -10,8 +10,13 @@ export const Container = styled.div`
   grid-template-areas: 
     "header"
     "aboutme"
-    "content"
-  ;
+    "content";
+
+  > main {
+    grid-area: content;
+    overflow-y: scroll;
+    padding: 64px 0;
+  }
 `;
 
 export const Links = styled.ul`
@@ -33,7 +38,7 @@ export const Experiences = styled.div`
 
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
     line-height: 24px;
@@ -72,4 +77,13 @@ export const Experiences = styled.div`
     border-bottom-style: solid;
     border-block-color: ${({ theme }) => theme.COLORS.ORANGE};
   }
+`;
+
+export const Content = styled.div`
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
 `;

@@ -4,7 +4,7 @@ export const Container = styled.div`
 
   grid-area: aboutme;
 
-  height: 480px;
+  min-height: 500px;
   width: 100%;
 
   border-bottom-width: 1px;
@@ -21,10 +21,11 @@ export const AboutMe = styled.div`
 
   display: flex;
   align-items: center;
+  text-align: justify;
 
   > img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     margin-left: 100px;
   }
@@ -44,15 +45,12 @@ export const AboutMe = styled.div`
     margin-bottom: 24px;
   }
 
-  span {
+  p {
     font-size: 18px;
     color: ${({ theme }) => theme.COLORS.COLOR_9};
     
-    line-height: 24px
+    line-height: 24px;
+
+    margin-bottom: 48px;
   }
-
-  
-
-
-
 `;
