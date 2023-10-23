@@ -55,11 +55,11 @@ export const Content = styled.div`
   }
 
   > h3 {
-    margin-bottom: 16px;
-  } 
+    color: ${({ theme }) => theme.COLORS.ORANGE};
+  }
 
   > p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 16px;
     text-align: justify;
   }

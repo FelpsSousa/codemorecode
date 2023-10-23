@@ -25,7 +25,17 @@ export function Java () {
           <Line />
 
           <p>
-          To-Do List desenvolvido durante a semana de eventos da Rocketseat. Neste projeto, exploramos a construção do back-end de uma aplicação de lista de tarefas, aprendendo conceitos essenciais do Spring Boot, criando uma aplicação funcional.
+          To-Do List desenvolvido durante a semana de eventos da Rocketseat. 
+          Neste projeto, exploramos a construção do back-end de uma aplicação de lista de tarefas, aprendendo conceitos essenciais do Spring Boot, criando uma aplicação funcional.
+          </p>
+          <p>
+            Tecnologias Utilizadas:
+          </p>
+          <p>
+            Java 17.0 · 
+            Maven · 
+            Spring Boot · 
+            API Dog · 
           </p>
 
           <SubSection>
@@ -46,16 +56,6 @@ export function Java () {
           <h3>Validação de usuário cadastrado</h3>
           <img src={javaValidation} alt="Validação de usuário cadastrado" />
           <Line />
-
-          <Section title="Habilidades Desenvolvidas">
-            
-            <Tag title="Java" />
-            <Tag title="Spring Boot" /> 
-            <Tag title="Maven" />
-            <Tag title="API Dog" />
-            <Tag title="Node.js" />
-
-          </Section>
 
           <Section title="Dados de Contato">
             <Links>

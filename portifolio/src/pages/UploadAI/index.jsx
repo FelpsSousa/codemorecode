@@ -51,7 +51,7 @@ export function UploadAI () {
 
           <SubSection>
             <Links>
-              <li><a href='https://gitlab.com/junio.batista12/Trabalho2_TP1' target="_blank">GitLab / Documentação do Projeto</a></li>
+              <li><a href='https://github.com/FelpsSousa/nlw-ai' target="_blank">GitHub / Documentação do Projeto</a></li>
             </Links>
           </ SubSection>
 

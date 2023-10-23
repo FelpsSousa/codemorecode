@@ -5,6 +5,11 @@ import { Section } from '../../components/Section';
 import { SubSection } from '../../components/SubSection';
 import { Tag } from '../../components/Tag';
 
+import portifolioAboutMe from '../../assets/portifolio/sobre-mim.jpg';
+import portifolioHelloWorld from '../../assets/portifolio/hello-world.jpg';
+import portifolioMainProjects from '../../assets/portifolio/principais-projetos.jpg';
+
+
 export function Portifolio () {
   return (
     <Container>
@@ -17,33 +22,37 @@ export function Portifolio () {
             Portifólio Profissional
           </h1>
 
+          <Line />
+          
           <p>
-            O projeto trata-se de meu portifólio profissional.
+            O projeto trata-se do meu portifólio profissional, que é toda aplicação que você está acessando agora. 
+          </p>
+          <p>
+            E muito obrigado pelo seu acesso! ; )
+          </p>
+          <p>
+            Tecnologias Utilizadas:
+  
+            React ·
+            Node.js ·  
+            JavaScript
           </p>
 
           <SubSection>
             <Links>
-              <li><a href='https://github.com/FelpsSousa' target="_blank">GitHub</a></li>
+              <li><a href='https://github.com/FelpsSousa' target="_blank">GitHub da Aplicação</a></li>
             </Links>
           </ SubSection>
 
-          <h3>Inicializando o Projeto TO DO List</h3>
-          <img src="https://github.com/FelpsSousa.png" alt="" />
+          <h3>HelloWorld:</h3>
+          <img src={portifolioHelloWorld} alt="Portifólio HelloWorld" />
           <Line />
-          <h3>Banco de dados do projeto - H2</h3>
-          <img src="https://github.com/FelpsSousa.png" alt="" />
+          <h3>Sobre Mim:</h3>
+          <img src={portifolioAboutMe} alt="Portifólio Sobre Mim" />
           <Line />
-          <h3>Banco de dados do projeto - H2</h3>
-          <img src="https://github.com/FelpsSousa.png" alt="" />
+          <h3>Principais Projetos:</h3>
+          <img src={portifolioMainProjects} alt="Portifólio Principais Projetos" />
           <Line />
-          <h3>Banco de dados do projeto - H2</h3>
-          <img src="../../assets/todo-list-java/" alt="" />
-          <Line />
-
-          <Section title="Habilidades Desenvolvidas">
-            <Tag title="express"/>
-            <Tag title="nodejs"/>
-          </Section>
 
           <Section title="Dados de Contato">
             <Links>
