@@ -3,6 +3,7 @@ import { Header } from '../../components/Header';
 import { Button } from '../../components/Button';
 import { About } from '../../components/AboutMe';
 import { Section } from '../../components/Section';
+import { Card } from '../../components/Card';
 
 export function Details () {
   return (
@@ -15,6 +16,17 @@ export function Details () {
         <About />
         
         <Content>
+
+          <Section title="PRINCIPAIS PROJETOS">
+            <Card data={{
+              title: 'Controle de Acesso',
+              description: 'Pequena descrição do projeto...',
+              tags: [
+                {id: '1', name: 'React'},
+                {id: '2', name: 'Node.js'}
+              ]
+            }}/>
+          </Section>
           
           <Section title="EXPERIÊNCIAS PROFISSIONAIS">
             < Experiences>
