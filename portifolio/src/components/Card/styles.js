@@ -33,14 +33,24 @@ export const Container = styled.button`
   }
   > p {
     text-align: left;
-    color: ${({ theme }) => theme.COLORS.COLOR_10};;
+    color: ${({ theme }) => theme.COLORS.COLOR_10};
     
     margin-top: 16px;
   }
 
   > footer {
+
+    > strong {
+      line-height: 36px;
+      font-size: 16px;
+    }
+
+    color: ${({ theme }) => theme.COLORS.ORANGE};;
     width: 100%;
     display: flex;
-    margin-top: 24px;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    align-items: center;
   }
 `; 

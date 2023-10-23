@@ -39,10 +39,11 @@ export function Details () {
             
             <Card data={{
               title: 'Portifólio Profissional',
-              description: 'Pequena descrição do projeto...',
+              description: 'O projeto trata-se do meu portifólio profissional, que...',
               image: 'https://github.com/FelpsSousa.png',
               tags: [
                 {id: '1', name: 'React'},
+                {id: '1', name: 'Vite'},
                 {id: '2', name: 'Node.js'}
               ],
               link: '/portifolio'
@@ -50,8 +51,8 @@ export function Details () {
 
             <Card data={{
               title: 'Controle de Acesso',
-              description: 'Pequena descrição do projeto...',
-              image: '',
+              description: 'Este projeto consiste em um sistema de controle de acesso e monitoramento',
+              image: 'https://github.com/FelpsSousa.png',
               tags: [
                 {id: '1', name: 'OpenCV'},
                 {id: '2', name: 'C++'},
@@ -59,6 +60,55 @@ export function Details () {
               ],
               link: '/controle-de-acesso'
             }}/>
+
+            <Card data={{
+              title: 'upload.ai',
+              description: 'Projeto inovador que utiliza a inteligência artificial...',
+              image: 'https://github.com/FelpsSousa.png',
+                tags: [
+                  {id: '1', name: 'Inteligência Artificial'},
+                  {id: '2', name: 'TypesCript'},
+                  {id: '2', name: ''},
+                ],
+              link: '/controle-de-acesso'
+            }}/>
+
+<           Card data={{
+              title: 'Controle de Acesso',
+              description: 'Pequena descrição do projeto...',
+              image: 'https://github.com/FelpsSousa.png',
+              tags: [
+                {id: '1', name: 'OpenCV'},
+                {id: '2', name: 'C++'},
+                {id: '2', name: 'JavaScript'},
+              ],
+              link: '/controle-de-acesso'
+            }}/>
+
+            <Card data={{
+              title: 'Controle de Acesso',
+              description: 'Pequena descrição do projeto...',
+              image: 'https://github.com/FelpsSousa.png',
+              tags: [
+                {id: '1', name: 'OpenCV'},
+                {id: '2', name: 'C++'},
+                {id: '2', name: 'JavaScript'},
+              ],
+              link: '/controle-de-acesso'
+            }}/>
+
+            <Card data={{
+              title: 'Controle de Acesso',
+              description: 'Pequena descrição do projeto...',
+              image: 'https://github.com/FelpsSousa.png',
+              tags: [
+                {id: '1', name: 'OpenCV'},
+                {id: '2', name: 'C++'},
+                {id: '2', name: 'JavaScript'},
+              ],
+              link: '/controle-de-acesso'
+            }}/>
+
 
           </Section>
           

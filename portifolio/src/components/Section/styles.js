@@ -5,6 +5,7 @@ export const Container = styled.section`
   max-width: 1200px;
   margin: 64px 0 28px;
 
+
   > h1 {
 
     text-align: center;

@@ -58,7 +58,7 @@ export function UploadAI () {
           <h3>Tela Principal:</h3>
           <img src={uploadAIScreen} alt="Executando identificador de faces" />
           <Line />
-          <h3>Upload de um Vídeo Aleatório:</h3>
+          <h3>Upload de um Vídeo .mp4:</h3>
           <img src={uploadAIUploaded} alt="Executando a interface de cadastro" />
           <Line />
           <h3>Gerando Possíveis Títulos:</h3>

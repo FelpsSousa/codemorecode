@@ -12,12 +12,12 @@ export function Card({ data, ...rest }) {
       
       <p>{data.description}</p>
       
-      <img src={data.image} alt="Imagem de apresentação do projeto" />
+      <img src={data.image} alt={data.title} />
       
       {
         <footer>
           {
-            data.tags.map( tag => <Tag key={tag.name} title={tag.name} /> )
+            data.tags.map( tag => <strong> {tag.name} </strong>)
           }
         </footer>
       }

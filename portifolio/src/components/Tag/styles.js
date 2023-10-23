@@ -4,6 +4,8 @@ export const Container = styled.span`
 
   font-size: 12px;
   font-weight: 800;
+
+  align-items: center;
   
   padding: 5px 14px;
   border-radius: 5px;
