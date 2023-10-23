@@ -1,6 +1,6 @@
 import { Button } from '../Button';
 import { Tag } from '../../components/Tag';
-
+import { Link } from 'react-router-dom';
 import { Container } from './styles';
 
 export function Card({ data, ...rest }) {
@@ -22,7 +22,9 @@ export function Card({ data, ...rest }) {
         </footer>
       }
 
-      <Button title="Ver mais"/>
+      <Link to={data.link}>
+        <Button title="Ver mais"/>
+      </Link>
     
     </Container>
   );

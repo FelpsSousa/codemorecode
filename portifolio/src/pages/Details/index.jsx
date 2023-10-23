@@ -26,6 +26,9 @@ export function Details () {
 
             <h2>Desenvolvedor Full Stack | Rocketseat </h2>
             <SubSection title="Janeiro de 2023 - Presente" />
+
+            <h2>Desenvolvedor Web Full Stack | Cod3r </h2>
+            <SubSection title="Janeiro de 2020 - Presente" />
           </Section>
 
           <Section title="Habilidades">
@@ -33,15 +36,16 @@ export function Details () {
           </Section>
 
           <Section title="Principais Projetos">
-
+            
             <Card data={{
-              title: 'Portifólio Pessoal',
+              title: 'Portifólio Profissional',
               description: 'Pequena descrição do projeto...',
               image: 'https://github.com/FelpsSousa.png',
               tags: [
                 {id: '1', name: 'React'},
                 {id: '2', name: 'Node.js'}
-              ]
+              ],
+              link: '/portifolio'
             }}/>
 
             <Card data={{
