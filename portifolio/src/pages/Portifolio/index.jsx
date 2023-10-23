@@ -49,7 +49,7 @@ export function Portifolio () {
             <Links>
               <li><a href='https://github.com/FelpsSousa' target="_blank">GitHub</a></li>
               <li><a href='https://linkedin.com/in/felipeluis-felpssousa' target="_blank">LinkedIn</a></li>
-              <li><a href="https://wa.me/5562994294774" target="_blank">Whatsapp</a></li>
+              <li><a href="https://wa.me/5562994294774" target="_blank">WhatsApp</a></li>
             </Links>
           </Section>
        

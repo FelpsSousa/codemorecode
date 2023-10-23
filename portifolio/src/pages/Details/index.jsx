@@ -6,7 +6,7 @@ import { Section } from '../../components/Section';
 import { Card } from '../../components/Card';
 import { SubSection } from '../../components/SubSection';
 
-import imgJava1 from '../../assets/todo-list-java/inicilizando-projeto.jpg';
+import accessControl from '../../assets/access-control/identificator.jpg';
 
 export function Details () {
   return (
@@ -51,11 +51,13 @@ export function Details () {
             <Card data={{
               title: 'Controle de Acesso',
               description: 'Pequena descrição do projeto...',
-              image: {imgJava1},
+              image: '',
               tags: [
-                {id: '1', name: 'React'},
-                {id: '2', name: 'Node.js'}
-              ]
+                {id: '1', name: 'OpenCV'},
+                {id: '2', name: 'C++'},
+                {id: '2', name: 'JavaScript'},
+              ],
+              link: '/controle-de-acesso'
             }}/>
 
           </Section>
@@ -64,7 +66,7 @@ export function Details () {
             <Links>
               <li><a href='https://github.com/FelpsSousa' target="_blank">GitHub</a></li>
               <li><a href='https://linkedin.com/in/felipeluis-felpssousa' target="_blank">LinkedIn</a></li>
-              <li><a href="https://wa.me/5562994294774" target="_blank">Whatsapp</a></li>
+              <li><a href="https://wa.me/5562994294774" target="_blank">WhatsApp</a></li>
             </Links>
           </Section>
 
