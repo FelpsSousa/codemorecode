@@ -5,14 +5,14 @@ import { Section } from '../../components/Section';
 import { SubSection } from '../../components/SubSection';
 import { Tag } from '../../components/Tag';
 
-import controlAccessIdentificator from '../../assets/access-control/identificator.jpg';
-import controlAccessSignup from '../../assets/access-control/signup.jpg';
-import controlAccessStudent from '../../assets/access-control/student.png';
-import controlAccessTeacher from '../../assets/access-control/teacher.jpg';
-import controlAccessRead from '../../assets/access-control/read-face.jpg';
+import uploadAIScreen from '../../assets/upload-ai/tela-principal.png';
+import uploadAIUploaded from '../../assets/upload-ai/video-carregado.png';
+import uploadAITitle from '../../assets/upload-ai/gerando-titulo.png';
+import uploadAIDescription from '../../assets/upload-ai/gerando-descricao.png';
+import uploadAIExecution from '../../assets/upload-ai/saida-descricao.png';
 
 
-export function AccessControl () {
+export function UploadAI () {
   return (
     <Container>
       <Header />
@@ -21,26 +21,32 @@ export function AccessControl () {
         <Content>
              
           <h1>
-            Sistema de Controle de Acesso
+            Geração Automática de Transcrições e Títulos para vídeos do YouTube com Inteligência Artificial - OpenAI
           </h1>
 
           <Line />
 
           <p>
-            Este projeto consiste em um sistema de controle de acesso e monitoramento a ser usado na entrada dos Laboratórios de Computação (LINF - UnB). O objetivo é monitorar estudantes, professores, pessoal de limpeza, pessoal de segurança (vigilantes), pessoal de suporte técnico do CIC (funcionários, estagiários e professores associados à administração de suporte), bem como pessoas externas (ou pessoal de empresas terceirizadas) que acessam os laboratórios para realizar manutenção na infraestrutura (hardware, cabos, mobília, paredes, ar condicionado, etc.).
+            Desenvolvi um projeto inovador que utiliza a inteligência artificial (IA) alimentada pela versão gratuita da OpenAI, o GPT 3.5-turbo 16k, para automatizar a geração de transcrições, títulos e palavras-chave para vídeos do YouTube. O processo é simples e eficiente: os usuários fazem o upload de um vídeo .mp4 diretamente do navegador, otimizando o processamento local. O vídeo é convertido para .mp3 e, por meio de APIs personalizadas, é transformado em texto transcrito.
 
-            Os dados de registro serão armazenados em um banco de dados, que conterá as seguintes informações:
-            Número de usuário, que pode ser uma identificação de estudante (para estudantes) ou CPF (pessoal externo).
-            Nome completo e sobrenome.
-            Identificador de disciplinas ou turmas (para estudantes) e outras reservas (pessoal externo).
-            Arquivos de imagem facial de cada usuário, que serão usados para validação de acesso.
-
-            Durante a validação de acesso, os seguintes dados são armazenados:
-            Autor da reserva.
-            Finalidade da reserva e informações adicionais da reserva.
-            Número da sala.
-            Horário.
-            Se será uma reserva recorrente.
+            Os usuários têm controle total sobre a saída, adicionando palavras-chave que orientam a geração de conteúdo. Eles podem personalizar o título e a descrição do vídeo do YouTube de acordo com suas preferências. Além disso, oferecemos uma opção de "temperatura" que permite ajustar o nível de criatividade da IA, fornecendo resultados específicos ou mais criativos com base na escolha do usuário.
+          </p>
+          <p>
+            Tecnologias Utilizadas:
+          </p>
+          <p>
+            API OpenAI · 
+            React · 
+            JavaScript · 
+            TypeScript · 
+            Prisma · 
+            Tailwind CSS · 
+            FFMPEG · 
+            Shadcnui · 
+            Axios
+          </p>
+          <p>
+            O projeto é uma solução inovadora que economiza tempo na criação de conteúdo para o YouTube e proporciona uma experiência dinâmica e interativa. Os usuários podem acompanhar o processamento em tempo real, tornando-o uma ferramenta poderosa para criadores de conteúdo e profissionais de marketing.
           </p>
 
           <SubSection>
@@ -49,20 +55,20 @@ export function AccessControl () {
             </Links>
           </ SubSection>
 
-          <h3>Executando identificador de faces:</h3>
-          <img src={controlAccessIdentificator} alt="Executando identificador de faces" />
+          <h3>Tela Principal:</h3>
+          <img src={uploadAIScreen} alt="Executando identificador de faces" />
           <Line />
-          <h3>Executando a interface de cadastro:</h3>
-          <img src={controlAccessSignup} alt="Executando a interface de cadastro" />
+          <h3>Upload de um Vídeo Aleatório:</h3>
+          <img src={uploadAIUploaded} alt="Executando a interface de cadastro" />
           <Line />
-          <h3>Interface inicial de cadastro:</h3>
-          <img src={controlAccessStudent} alt="Interface inicial de cadastro" />
+          <h3>Gerando Possíveis Títulos:</h3>
+          <img src={uploadAITitle} alt="Interface inicial de cadastro" />
           <Line />
-          <h3>Cadastrando Professor:</h3>
-          <img src={controlAccessTeacher} alt="Cadastrando Professor" />
+          <h3>Gerando Descrição:</h3>
+          <img src={uploadAIDescription} alt="Cadastrando Professor" />
           <Line />
-          <h3>Reconhecendo pessoa na etapa de cadastro:</h3>
-          <img src={controlAccessRead} alt="Reconhecendo pessoa na etapa de cadastro" />
+          <h3>Resultado da Descrição:</h3>
+          <img src={uploadAIExecution} alt="Reconhecendo pessoa na etapa de cadastro" />
           <Line />
 
           <Section title="Habilidades Desenvolvidas">
