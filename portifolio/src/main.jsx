@@ -4,13 +4,13 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/global';
 import theme from './styles/theme';
 
-import { Details } from './pages/Details';
+import { Java } from './pages/Java';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Details />
+      <Java />
     </ThemeProvider>
   </React.StrictMode>,
 )

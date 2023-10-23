@@ -9,12 +9,12 @@ export const Container = styled.header`
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: ${({ theme }) => theme.COLORS.COLOR_5};
+  border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_100};
 
   display: flex;
   justify-content: space-between;
 
   padding: 0 80px;
 
-  background: pink;
+  background: ${({ theme }) => theme.COLORS.COLOR_1};
 `;

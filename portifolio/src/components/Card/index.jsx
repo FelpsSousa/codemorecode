@@ -12,7 +12,7 @@ export function Card({ data, ...rest }) {
       
       <p>{data.description}</p>
       
-      <img src="https://github.com/FelpsSousa.png" alt="Imagem de apresentação do projeto" />
+      <img src={data.image} alt="Imagem de apresentação do projeto" />
       
       {
         <footer>

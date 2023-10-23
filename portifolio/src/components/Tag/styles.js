@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.span`
 
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   
   padding: 5px 14px;
   border-radius: 5px;

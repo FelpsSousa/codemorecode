@@ -11,9 +11,10 @@ export const Container = styled.section`
    
     border-bottom-width: 1px;
     border-bottom-style: dashed;
-    border-block-color: ${({ theme }) => theme.COLORS.COLOR_9};
+    border-block-color: pink;
 
     padding-bottom: 16px;
+    margin-top: 24px;
     margin-bottom: 24px;
 
     color: ${({ theme }) => theme.COLORS.COLOR_9};
