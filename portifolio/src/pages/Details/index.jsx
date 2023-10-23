@@ -21,8 +21,8 @@ export function Details () {
         <Content>
 
           <Section title="Formação Acadêmica">
-            <h2>Engenharia Mecatrônica - Engenharia de Controle e Automação | Universidade de Brasília (UnB) </h2>
-            <SubSection title="Julho de 2015 - Presente" />
+            <h2>Engenharia Mecatrônica - Engenheiro de Controle e Automação | Universidade de Brasília (UnB) </h2>
+            <SubSection title="Julho de 2015 - Cancelado" />
 
             <h2>Desenvolvedor Full Stack | Rocketseat </h2>
             <SubSection title="Janeiro de 2023 - Presente" />
@@ -31,10 +31,10 @@ export function Details () {
             <SubSection title="Janeiro de 2020 - Presente" />
           </Section>
 
-          <Section title="Habilidades">
-            <h3>Software Developer | C | C++ | Embedded System | JavaScript | TypeScript | Angular | Vue.js | React | Node.js | Java | Phyton | Software Engineer</h3>
-          </Section>
-
+          <Section title="Habilidades" />
+          
+          <h3>Desenvolvimento de Software  · C  · C++  · Sistemas Embarcados  · JavaScript  · TypeScript  · Angular  · Vue.js  · React  · Node.js  · Phyton · Java  </h3>
+          
           <Section title="Principais Projetos">
             
             <Card data={{

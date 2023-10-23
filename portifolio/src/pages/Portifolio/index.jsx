@@ -32,15 +32,16 @@ export function Portifolio () {
           </p>
           <p>
             Tecnologias Utilizadas:
-  
-            React ·
+
+            Vite ·
+            React JS ·
             Node.js ·  
             JavaScript
           </p>
 
           <SubSection>
             <Links>
-              <li><a href='https://github.com/FelpsSousa' target="_blank">GitHub da Aplicação</a></li>
+              <li><a href='https://github.com/FelpsSousa/codemorecode/tree/main/portifolio' target="_blank">GitHub da Aplicação</a></li>
             </Links>
           </ SubSection>
 

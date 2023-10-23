@@ -86,4 +86,11 @@ export const Content = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  > h3 {
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+  }
 `;

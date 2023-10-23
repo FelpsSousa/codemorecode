@@ -22,7 +22,7 @@ export function Card({ data, ...rest }) {
         </footer>
       }
 
-      <Link to={data.link}>
+      <Link to={data.link} target="_blank">
         <Button title="Ver mais"/>
       </Link>
     

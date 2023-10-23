@@ -5,6 +5,7 @@ import { Portifolio } from '../pages/Portifolio';
 import { Java } from '../pages/Java';
 import { AccessControl } from '../pages/AccessControl';
 import { UploadAI } from '../pages/UploadAI';
+import { RocketNotes } from '../pages/RocketNotes';
 
 export function AppRoutes() {
 
@@ -15,6 +16,7 @@ export function AppRoutes() {
       <Route path='/to-do-list-java-17' element={<Java />} />
       <Route path='/controle-de-acesso' element={<AccessControl />} />
       <Route path='/upload-ai' element={<UploadAI />} />
+      <Route path='/rocket-notes' element={<RocketNotes />} />
     </Routes>
   );
 }
