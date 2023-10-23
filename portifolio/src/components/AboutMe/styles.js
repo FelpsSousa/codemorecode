@@ -12,9 +12,9 @@ export const Container = styled.div`
   border-bottom-color: ${({ theme }) => theme.COLORS.COLOR_5};
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
-  padding: 0 80px;
+  padding: 0 64px;
 `;
 
 export const AboutMe = styled.div`
@@ -27,29 +27,30 @@ export const AboutMe = styled.div`
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    margin-left: 100px;
+    padding: 12px;
   }
 
   > div {
     display: flex;
     flex-direction: column;
-    margin-left: 140px;
-    margin-right: 140px;
+    max-width: 750px;
     line-height: 24px;
+
+    padding: 36px;
   }
 
   strong {
     font-size: 24px;
-    color: ${({ theme }) => theme.COLORS.WHITE};    
+    color: ${({ theme }) => theme.COLORS.COLOR_9};    
     
     margin-bottom: 24px;
   }
 
   p {
     font-size: 18px;
-    color: ${({ theme }) => theme.COLORS.COLOR_9};
+    color: ${({ theme }) => theme.COLORS.WHITE};
     
-    line-height: 24px;
+    line-height: 28px;
 
     margin-bottom: 48px;
   }
