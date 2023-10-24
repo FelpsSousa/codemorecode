@@ -5,6 +5,7 @@ import { About } from '../../components/AboutMe';
 import { Section } from '../../components/Section';
 import { Card } from '../../components/Card';
 import { SubSection } from '../../components/SubSection';
+import { BsFillFileEarmarkCodeFill } from 'react-icons/bs'
 
 import accessControl from '../../assets/access-control/identificator.jpg';
 
@@ -40,7 +41,7 @@ export function Details () {
             <Card data={{
               title: 'Portifólio Profissional',
               description: 'O projeto trata-se do meu portifólio profissional, que...',
-              image: 'https://github.com/FelpsSousa.png',
+              image: <BsFillFileEarmarkCodeFill />,
               tags: [
                 {id: '1', name: 'React'},
                 {id: '1', name: 'Vite'},
@@ -74,37 +75,37 @@ export function Details () {
             }}/>
 
 <           Card data={{
-              title: 'Controle de Acesso',
-              description: 'Pequena descrição do projeto...',
+              title: 'To-Do List || Java',
+              description: 'Neste projeto, exploramos a construção do back-end de uma aplicação de lista de tarefas...',
               image: 'https://github.com/FelpsSousa.png',
               tags: [
-                {id: '1', name: 'OpenCV'},
-                {id: '2', name: 'C++'},
-                {id: '2', name: 'JavaScript'},
+                {id: '1', name: 'Java'},
+                {id: '2', name: 'Spring Boot'},
+                {id: '2', name: 'Maven'},
               ],
-              link: '/controle-de-acesso'
+              link: '/to-do-list-java-17'
             }}/>
 
             <Card data={{
-              title: 'Controle de Acesso',
-              description: 'Pequena descrição do projeto...',
+              title: 'Rocket Notes',
+              description: ' Trata-se de uma aplicação de um método inteligênte de cadastro e notas, com campo...',
               image: 'https://github.com/FelpsSousa.png',
               tags: [
-                {id: '1', name: 'OpenCV'},
-                {id: '2', name: 'C++'},
+                {id: '1', name: 'Vite'},
+                {id: '2', name: 'React JS'},
                 {id: '2', name: 'JavaScript'},
               ],
-              link: '/controle-de-acesso'
+              link: '/rocket-notes'
             }}/>
 
             <Card data={{
-              title: 'Controle de Acesso',
-              description: 'Pequena descrição do projeto...',
+              title: 'Cadastro de Artigos',
+              description: 'Aplicação completa para cadastro de Artigos relacionados em cascata (Objetos Pai e Objetos Filhos)...',
               image: 'https://github.com/FelpsSousa.png',
               tags: [
-                {id: '1', name: 'OpenCV'},
-                {id: '2', name: 'C++'},
+                {id: '1', name: 'Vue.js'},
                 {id: '2', name: 'JavaScript'},
+                {id: '2', name: 'MongoDB'},
               ],
               link: '/controle-de-acesso'
             }}/>

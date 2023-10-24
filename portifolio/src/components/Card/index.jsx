@@ -2,6 +2,8 @@ import { Button } from '../Button';
 import { Tag } from '../../components/Tag';
 import { Link } from 'react-router-dom';
 import { Container } from './styles';
+import { AiFillCode } from 'react-icons/ai'
+import { Icon } from './styles';
 
 export function Card({ data, ...rest }) {
 
@@ -12,7 +14,9 @@ export function Card({ data, ...rest }) {
       
       <p>{data.description}</p>
       
-      <img src={data.image} alt={data.title} />
+      <Icon>
+        <AiFillCode />
+      </Icon>
       
       {
         <footer>

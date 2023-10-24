@@ -63,7 +63,7 @@ export const Content = styled.div`
     margin-top: 16px;
     text-align: justify;
   }
-
+  
 `;
 
 export const Line = styled.div`

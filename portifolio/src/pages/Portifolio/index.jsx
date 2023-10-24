@@ -31,12 +31,15 @@ export function Portifolio () {
             E muito obrigado pelo seu acesso! ; )
           </p>
           <p>
+            <strong>
             Tecnologias Utilizadas:
 
             Vite ·
             React JS ·
             Node.js ·  
             JavaScript
+            
+            </strong>
           </p>
 
           <SubSection>

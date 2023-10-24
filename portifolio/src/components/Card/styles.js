@@ -33,7 +33,7 @@ export const Container = styled.button`
   }
   > p {
     text-align: left;
-    color: ${({ theme }) => theme.COLORS.COLOR_10};
+    color: ${({ theme }) => theme.COLORS.COLOR_4};
     
     margin-top: 16px;
   }
@@ -45,7 +45,7 @@ export const Container = styled.button`
       font-size: 16px;
     }
 
-    color: ${({ theme }) => theme.COLORS.ORANGE};;
+    color: ${({ theme }) => theme.COLORS.ORANGE};
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -54,3 +54,12 @@ export const Container = styled.button`
     align-items: center;
   }
 `; 
+
+export const Icon = styled.button`
+
+  font-size: 180px;
+
+  border: none;
+  background: none;
+  color: ${({ theme }) => theme.COLORS.ORANGE};
+`;

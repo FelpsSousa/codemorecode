@@ -27,7 +27,7 @@ export function RocketNotes () {
           <Line />
 
           <p>
-            Trata-se de uma aplicação onde implementou-se um método inteligênte de cadastro e notas, com campo de observações (text-area), integração de links úteis e com marcadores para os conjuntos de notas cadastradas.
+            Trata-se de uma aplicação de um método inteligênte de cadastro e notas, com campo de observações (Text-Area), integração de links úteis e com marcadores para os conjuntos de notas cadastradas.
             Na aplicação encontra-se inicialmente a página de cadastro de usuário e página de login do usuário.  Ao efetuar login, as demias páginas são liberadas ao usuário. 
           </p>
           <p>
@@ -42,17 +42,24 @@ export function RocketNotes () {
           </p>
           
           <p>
+            <strong>
             Tecnologias Utilizadas:
+            </strong>
           </p>
           <p >
-            Vite · 
-            React JS · 
-            JavaScript · 
-            Node.js · 
-        
-            Express · 
-            SQLite · 
-            Knex.js
+            <strong>
+              Vite · 
+              React JS · 
+              JavaScript · 
+              Node.js · 
+          
+              Express* · 
+              SQLite* · 
+              Knex.js*
+            </strong>
+            <h5>
+              * : (backend da app)
+            </h5>
           </p>
 
           <SubSection>
@@ -79,20 +86,6 @@ export function RocketNotes () {
           <h3>Página de Perfil de Usuário:</h3>
           <img src={notesProfile} alt="Página de Perfil de Usuário" />
           <Line />
-
-          <Section title="Habilidades Desenvolvidas">
-            
-            <Tag title="OpenCV" />
-            <Tag title="C++" />
-            <Tag title="Desenvolvimento de Software" />
-            <Tag title="Programação Orientada a Objetos (POO)" />
-            <Tag title="Javascript" />
-            <Tag title="Linux / Ubuntu" /> 
-            <Tag title="Latex" />
-            <Tag title="GitLab" />
-            <Tag title="Documentação de Software" />
-    
-          </Section>
 
           <Section title="Dados de Contato">
             <Links>

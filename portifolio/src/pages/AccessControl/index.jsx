@@ -28,19 +28,37 @@ export function AccessControl () {
 
           <p>
             Este projeto consiste em um sistema de controle de acesso e monitoramento a ser usado na entrada dos Laboratórios de Computação (LINF - UnB). O objetivo é monitorar estudantes, professores, pessoal de limpeza, pessoal de segurança (vigilantes), pessoal de suporte técnico do CIC (funcionários, estagiários e professores associados à administração de suporte), bem como pessoas externas (ou pessoal de empresas terceirizadas) que acessam os laboratórios para realizar manutenção na infraestrutura (hardware, cabos, mobília, paredes, ar condicionado, etc.).
-
+          </p>
+          <p>
             Os dados de registro serão armazenados em um banco de dados, que conterá as seguintes informações:
             Número de usuário, que pode ser uma identificação de estudante (para estudantes) ou CPF (pessoal externo).
             Nome completo e sobrenome.
             Identificador de disciplinas ou turmas (para estudantes) e outras reservas (pessoal externo).
             Arquivos de imagem facial de cada usuário, que serão usados para validação de acesso.
-
+          </p>
+          <p>
             Durante a validação de acesso, os seguintes dados são armazenados:
             Autor da reserva.
             Finalidade da reserva e informações adicionais da reserva.
             Número da sala.
             Horário.
             Se será uma reserva recorrente.
+          </p>
+          <p>
+            <strong>
+              Tecnologias Utilizadas:
+            </strong>
+          </p>
+          
+          <p >
+            <strong>
+              OpenCV · 
+              C++ ·
+              Programação Orientada a Objetos (POO) · 
+              JavaScript · 
+              Linux / Ubuntu · 
+              GitLab
+            </strong>
           </p>
 
           <SubSection>
@@ -64,20 +82,6 @@ export function AccessControl () {
           <h3>Reconhecendo pessoa na etapa de cadastro:</h3>
           <img src={controlAccessRead} alt="Reconhecendo pessoa na etapa de cadastro" />
           <Line />
-
-          <Section title="Habilidades Desenvolvidas">
-            
-            <Tag title="OpenCV" />
-            <Tag title="C++" />
-            <Tag title="Desenvolvimento de Software" />
-            <Tag title="Programação Orientada a Objetos (POO)" />
-            <Tag title="Javascript" />
-            <Tag title="Linux / Ubuntu" /> 
-            <Tag title="Latex" />
-            <Tag title="GitLab" />
-            <Tag title="Documentação de Software" />
-    
-          </Section>
 
           <Section title="Dados de Contato">
             <Links>

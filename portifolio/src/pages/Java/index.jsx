@@ -29,13 +29,18 @@ export function Java () {
           Neste projeto, exploramos a construção do back-end de uma aplicação de lista de tarefas, aprendendo conceitos essenciais do Spring Boot, criando uma aplicação funcional.
           </p>
           <p>
-            Tecnologias Utilizadas:
+            <strong>
+              Tecnologias Utilizadas:
+            </strong>
           </p>
           <p>
-            Java 17.0 · 
-            Maven · 
-            Spring Boot · 
-            API Dog · 
+            <strong>
+              Java 17.0 · 
+              Maven · 
+              Spring Boot · 
+              API Dog ·
+              Docker
+            </strong>
           </p>
 
           <SubSection>
